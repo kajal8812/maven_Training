@@ -6,7 +6,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>  
   <groupId>com.javatpoint.application1</groupId>  
   <artifactId>maven_Training</artifactId>  
-  <version>1.0</version>  
+  <version>1.0</version> 
+
+<dependencies>
+<dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-lang3</artifactId>
+  <version>3.4</version>
+</dependency>
+</dependencies> 
+  
 
  
 <build>
